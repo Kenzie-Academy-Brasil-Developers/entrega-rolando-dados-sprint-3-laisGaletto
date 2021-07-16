@@ -1,6 +1,6 @@
 function roll(){
     let count = [0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-        for(let a = 0 ; a<= 1000; a++){
+        for(let a = 0 ; a< 1000; a++){
         let rollone = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
         let rolltwo = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
         let rollOfDice = rollone + rolltwo;
